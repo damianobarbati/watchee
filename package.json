@@ -1,0 +1,28 @@
+{
+  "name": "watchee",
+  "description": "Command line wrapper for gaze to watch file changes and execute command.",
+  "license": "MIT",
+  "version": "0.2.3",
+  "homepage": "https://github.com/damianobarbati/watchee",
+  "author": {
+    "name": "Damiano Barbati",
+    "url": "https://github.com/damianobarbati"
+  },
+  "repository": "https://github.com/damianobarbati/watchee",
+  "bugs": "https://github.com/damianobarbati/watchee/issues",
+  "type": "module",
+  "engines": {
+    "node": ">=14.15"
+  },
+  "main": "bin/watch.js",
+  "bin": {
+    "watch": "bin/watch.js"
+  },
+  "dependencies": {
+    "gaze": "^1.1.3",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.20.0"
+  }
+}
