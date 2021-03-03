@@ -2,7 +2,7 @@
   "name": "watchee",
   "description": "Command line wrapper for gaze to watch file changes and execute command.",
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/damianobarbati/watchee",
   "author": {
     "name": "Damiano Barbati",
